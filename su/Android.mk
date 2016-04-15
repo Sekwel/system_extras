@@ -3,7 +3,8 @@ include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES:= su.c
 
-LOCAL_MODULE:= su
+# Rename to 'su' (default)
+LOCAL_MODULE:= su-aosp
 
 LOCAL_FORCE_STATIC_EXECUTABLE := true
 
